@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" type="png" href="Images/Lock_icon.png" />
+    <link rel="stylesheet" href="styles/style3.css" />
+
+    <title>Files</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo">
+          <span class="span1">Files</span>
+        </div>
+        <div class="links">
+          <div class="link">
+            <a href="index.html">Home</a>
+          </div>
+          <div class="link">
+            <a href="#">About</a>
+          </div>
+          <div class="link">
+            <a href="projects.html">Projects</a>
+          </div>
+          <div class="link">
+            <a href="contacts.html">Contacts</a>
+          </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="#">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="#">Contacts</a>
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="main-container">
+        <div class="image">
+          <img src="Images/Lock_icon.png" alt="" />
+        </div>
+        <div class="content">
+          <div class="java-btn">
+            <a href="Zips/HTML/HTML.zip"><button>HTML</button></a>
+          </div>
+          <div class="java-btn">
+            <a href="Zips/Java/JAVA.zip"><button>Java</button></a>
+          </div>
+          <div class="java-btn">
+            <a href="Zips/MySQL/MySQL.zip"><button>MySQL</button></a>
+          </div>
+          <div class="java-btn">
+            <a href="Zips/Csharp/Csharp.zip"><button>C#</button></a>
+          </div>
+          <div class="java-btn">
+            <a href="Zips/Csharp+/Csharp+.zip"><button>C#+</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

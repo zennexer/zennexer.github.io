@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" type="png" href="Images/crown.webp" />
+    <link rel="stylesheet" href="styles/style2.css" />
+
+    <title>Projects</title>
+  </head>
+  <body>
+    <script>
+      function passWord() {
+        var testV = 1;
+        var pass1 = prompt("Please Enter Your Password", "");
+        while (testV < 3) {
+          if (!pass1) history.go(-1);
+          if (pass1.toLowerCase() == "mypassword") {
+            window.open("923JF349N3OCJ34C3.html");
+            break;
+          }
+          testV += 1;
+          var pass1 = prompt(
+            "Access Denied - Password Incorrect, Please Try Again.",
+            ""
+          );
+        }
+        if ((pass1.toLowerCase() != "password") & (testV == 3)) history.go(-1);
+        return " ";
+      }
+    </script>
+    <section>
+      <form class="content">
+        <input
+          class="btn"
+          type="button"
+          value="Enter Protected Page"
+          onClick="passWord()"
+        />
+      </form>
+    </section>
+  </body>
+</html>
