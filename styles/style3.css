@@ -35,8 +35,8 @@ nav {
 }
 
 .logo span {
-  color: #8f8f8f;
-  text-shadow: 0 0 10px #8f8f8f;
+  color: #ffc107;
+  text-shadow: 0 0 10px #ffc107;
 }
 
 .hamburg,
@@ -71,7 +71,7 @@ nav {
   left: 0;
   width: 0%;
   height: 3px;
-  background-color: #8f8f8f;
+  background-color: #ffc107;
   transition: 0.2s linear;
 }
 
@@ -80,7 +80,7 @@ nav {
 }
 
 .nav-container .links a:hover {
-  color: #8f8f8f;
+  color: #ffc107;
 }
 
 .dropdown {
@@ -106,7 +106,7 @@ nav {
 }
 
 .dropdown .links a:hover {
-  background-color: #8f8f8f;
+  background-color: #ffc107;
 }
 
 section {
@@ -115,6 +115,7 @@ section {
 }
 
 .main-container {
+  margin-left: 75px;
   width: 100%;
   height: 100%;
   display: flex;
