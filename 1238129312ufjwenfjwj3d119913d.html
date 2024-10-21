@@ -21,7 +21,11 @@ ss<!DOCTYPE html>
         while (testV < 3) {
           if (!pass1) history.go(-1);
           if (pass1.toLowerCase() == "mypassword") {
-            var myWindow = window.open("zentiouss.online", "_self");
+            var myWindow = window.open("index.html", "_self");
+            var pass2 = prompt(
+            "Access Denied - This currently doesn't work because of Security Issues.",
+            ""
+          );
             break;
           }
           testV += 1;
